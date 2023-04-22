@@ -10,7 +10,6 @@ const ActorCard = ({ name, image, gender, country, birthday, deathday }) => {
           <SearchImgWrapper>
             <img src={image} alt={name} />
           </SearchImgWrapper>
-
           <h1>
             {name} {!!gender && `(${gender})`}
           </h1>
